@@ -18,22 +18,29 @@
 .col
 .row-cols-2
 .col-sm
-.width-100 */
+.width-100 
+.col-1    (  Grid System  )
+.col-sm-*  (  Universal Selector Define Gird Number  )
+.col-xl-*  (  Universal Selector Define Grid Number  )
+.col-md-*  (  Universal Selector Define Grid Number  )
+.col-lg-*  (  Universal Selector Define Grid Number  )
 
 .container {
-    border: 0px solid black;
+    border: 2px solid black;
 }
 
 .row {
-    border: 0px solid red;
+    border: 3px solid red;
+    padding: 10px 8px;
 }
 
-.col,.col-12 {
-    border: 0px solid green;
-}
+.col-md,.col-12 {
+    border: 3px solid green;
+} */
 
-body {
+ body {
     background-color: gray;
+    font-size: 18px;
 }
 
 * {
@@ -50,6 +57,7 @@ a {
 
 #nav-links {
     background-color: pink;
+    height: 50px;
 }
 #nav-links  ul {
     padding-left: 0px;
@@ -58,16 +66,29 @@ a {
 
 #nav-links  ul li {
     display: inline-block;
+    padding-top: 10px;
 }
 
 #content {
     background-color: white;
+    min-height: 300px;
+    padding-top: 10px;
 }
 
 #side-bar {
     background-color: lightblue;
 } 
 
+#footer {
+    height: 60px;
+}
+
 .same {
     column-gap: 30px;
 }
+
+@media screen  and (max-width:580px) {
+    body {
+        font-size: 16px;
+    }
+} 
