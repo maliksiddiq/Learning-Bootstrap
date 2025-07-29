@@ -1,4 +1,4 @@
-.container {
+/* .container {
     border: 6px solid black;
 }
 .row {
@@ -8,8 +8,7 @@
 }
 .col-sm{
     border: 3px solid green;
-}
-
+} */
 
 
 /* ? --------------------------  Bootstrap  Classes  ----------------------- */
@@ -20,3 +19,55 @@
 .row-cols-2
 .col-sm
 .width-100 */
+
+.container {
+    border: 0px solid black;
+}
+
+.row {
+    border: 0px solid red;
+}
+
+.col,.col-12 {
+    border: 0px solid green;
+}
+
+body {
+    background-color: gray;
+}
+
+* {
+    list-style: none;
+}
+
+a {
+     text-decoration: none;
+}
+
+#header,#footer {
+    background-color: orange;
+}
+
+#nav-links {
+    background-color: pink;
+}
+#nav-links  ul {
+    padding-left: 0px;
+    margin-bottom: 0.5rem;
+}
+
+#nav-links  ul li {
+    display: inline-block;
+}
+
+#content {
+    background-color: white;
+}
+
+#side-bar {
+    background-color: lightblue;
+} 
+
+.same {
+    column-gap: 30px;
+}
